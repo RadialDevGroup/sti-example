@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This board exists in order to facilitate creation of an example rails app which
+demonstrates Single Table Inheritance (STI).
 
-Things you may want to cover:
+The concepts which we notably attempt to demonstrate are:
 
-* Ruby version
+* Having multiple user types exist in the same table in the database (STI)
 
-* System dependencies
+* Two separate log-in routes for the appropriate user types
 
-* Configuration
+* Conditional behavior of an app based on current STI user type (i.e. different display behavior and functionality)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+These stories are ordered approximately based on necessary order of completion
+or for ease of development.
